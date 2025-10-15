@@ -95,3 +95,18 @@
     "password": "$2b$10$nRAkgaW9VryTExe7Sdj4xOGzOHTnaQ7K7lCRvfNAC/23ceDfldI4."
   }
 }
+
+
+
+[
+  {
+    "ngoName": "manyata",
+    "email": "manyata@gmail.com",
+    "password": "$2b$10$Yzr3iuG58jea8SJ/P0hCf.vyBnYEhoAzQqtuV0IXgCKuzXYS2CEtq"
+  },
+  {
+    "ngoName": "AKSHAT Kumar Tyagi",
+    "email": "akshatyagi1549@gmail.com",
+    "password": "$2b$10$v8aJHxFWHLK4d2a6f.DfY.O7wicFMA5PKWWfnp6B6laFvGrpq5dxq"
+  }
+]
