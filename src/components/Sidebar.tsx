@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import {
   Home,
   Users,
@@ -47,12 +47,19 @@ export function Sidebar({
     input.click();
   };
 
+  // Base menu items visible to all users
   const baseItems = [
     { id: "dashboard", label: "Dashboard", icon: Home },
     { id: "RegisterNGO", label: "Register NGO", icon: Users },
     { id: "settings", label: "Settings", icon: Settings },
   ];
 
+  // Add HR Management for executive users only
+  if (user?.role === "leadership") {
+    baseItems.push({ id: "hr", label: "HR Management", icon: Users });
+  }
+
+  // Optional modules based on answers or selections
   const optionalModules = [
     { id: "donors", label: "Donor Management", icon: Users },
     { id: "finances", label: "Financial Tracking", icon: IndianRupee },
@@ -60,7 +67,6 @@ export function Sidebar({
     { id: "collaboration", label: "NGO Collaboration Hub", icon: Network },
     { id: "reports", label: "Reports & Analytics", icon: FileText },
   ];
-  
 
   // Filter optional modules based on user's selection
   const visibleOptionalModules = optionalModules.filter((mod) =>
@@ -70,7 +76,6 @@ export function Sidebar({
   );
 
   const menuItems = [...baseItems, ...visibleOptionalModules];
-  
 
   return (
     <div className="w-64 bg-white border-r border-gray-200 flex flex-col">

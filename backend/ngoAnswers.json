@@ -1701,5 +1701,139 @@
       "Impact Metrics",
       "Active Projects"
     ]
+  },
+  "1760521057536": {
+    "ngoName": "drfhg",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1760525994170": {
+    "ngoName": "dfbg",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ]
+  },
+  "1760529421983": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760591917257": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760592003884": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760592549857": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
   }
 }

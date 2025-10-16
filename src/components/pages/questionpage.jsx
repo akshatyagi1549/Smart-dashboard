@@ -1,12 +1,33 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom"; 
 import { useState, useEffect } from "react";
-import { questions } from "../../data/question";
+import { questions as directorQuestions } from "../../data/question";
+import { questions as executiveQuestions } from "../../data/executiveQuestions";
+import { questions as employeeQuestions } from "../../data/employeeQuestions";
 import { useAuth } from "../../contexts/AuthContext";
 
 export default function QuestionPage() {
   const { step } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const { user, updateUser } = useAuth();
+
+  // Get role from location.state or sessionStorage or fallback to user.role
+  const [role, setRole] = useState(
+    location.state?.role ||
+    sessionStorage.getItem("role") ||
+    user?.role ||
+    "staff"
+  );
+
+  // Save role to sessionStorage to persist on refresh
+  useEffect(() => {
+    sessionStorage.setItem("role", role);
+  }, [role]);
+
+  // Select the question set based on role
+  let questions = directorQuestions;
+  if (role === "leadership") questions = executiveQuestions;
+  else if (role === "employee") questions = employeeQuestions;
 
   const index = step ? parseInt(step, 10) - 1 : 0;
 
@@ -36,7 +57,7 @@ export default function QuestionPage() {
     e.preventDefault();
 
     if (index < questions.length - 1) {
-      navigate(`/questions/${index + 2}`);
+      navigate(`/questions/${index + 2}`, { state: { role } });
     } else {
       try {
         if (!user || !user.id) throw new Error("User not found");
@@ -55,23 +76,15 @@ export default function QuestionPage() {
 
         alert("Answers saved successfully!");
 
-        // ✅ Retrieve stored user info from localStorage
         const storedUser = JSON.parse(localStorage.getItem("user") || "{}");
-
-        // ✅ Extract username (before @ in email)
         const username = storedUser.email
-          ? storedUser.email.split("@")[0].split(/[0-9]/)[0] // removes digits if you want
+          ? storedUser.email.split("@")[0].split(/[0-9]/)[0]
           : "user";
-
-        // ✅ Extract NGO name
         const ngoName = (answers.ngoName || storedUser.ngoName || "ngo")
           .toLowerCase()
           .replace(/\s+/g, "_");
-
-        // ✅ Construct clean dashboard URL
         const dashboardPath = `/dashboard/${username}_${ngoName}`;
 
-        // ✅ Redirect to unique dashboard
         navigate(dashboardPath);
 
       } catch (err) {

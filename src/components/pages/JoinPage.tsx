@@ -84,8 +84,8 @@ export function JoinPage() {
           experience: formData.experience
         }));
 
-        // Redirect to question page after successful registration
-        navigate('/questions/1');
+        // Redirect to question page with role state
+        navigate('/questions/1', { state: { role: selectedRole } });
       } else {
         setErrors({ submit: 'Registration failed. Please try again.' });
       }
