@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"; 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-  useParams,
+  useParams
 } from "react-router-dom";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import { DashboardProvider } from "./contexts/DashboardContext";
@@ -83,7 +83,8 @@ function AppContent() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/join" element={<JoinPage />} />
-        <Route path="/questions" element={<Navigate to="/questions/1" />} />
+
+        {/* Question pages */}
         <Route
           path="/questions/:step"
           element={
@@ -92,6 +93,7 @@ function AppContent() {
             </ProtectedRoute>
           }
         />
+
         <Route path="/enquiry" element={<EnquiryPage />} />
         <Route path="/ngos" element={<NGOListPage />} />
         <Route path="/ngos/:id" element={<NGODetailsPage />} />
@@ -108,6 +110,7 @@ function AppContent() {
           }
         />
 
+        {/* Dashboard-related pages */}
         <Route
           path="/add-donation"
           element={
