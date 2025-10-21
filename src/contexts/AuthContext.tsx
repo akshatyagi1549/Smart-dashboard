@@ -22,6 +22,7 @@ interface AuthContextType {
   register: (userData: RegisterData) => Promise<boolean>;
   logout: () => void;
   updateUser: (updates: Partial<User>) => void;
+  getAllUsers: () => User[];
   isLoading: boolean;
 }
 
@@ -64,7 +65,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Initialize demo users
   const initializeDemoUsers = () => {
     const users = getStoredUsers();
     if (users.length === 0) {
@@ -120,7 +120,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  // Login function
   const login = async (email: string, password: string): Promise<boolean> => {
     setIsLoading(true);
     try {
@@ -129,21 +128,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
-
       const result = await response.json();
 
       if (!result.success) {
-        setIsLoading(false);
         console.error(result.message);
+        setIsLoading(false);
         return false;
       }
 
-      // Map backend response to User object
       const loggedInUser: User = {
         id: Date.now().toString(),
-        name: result.ngoName,
+        name: result.name || result.ngoName,
         email: result.email,
-        role: 'staff', // default role; you can customize as needed
+        role: result.role || 'staff',
+        organization: result.organization || '',
         hasCompletedQuestions: false,
       };
 
@@ -162,7 +160,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
 
-  // Register function
   const register = async (userData: RegisterData): Promise<boolean> => {
     setIsLoading(true);
     try {
@@ -170,21 +167,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ngoName: userData.name,
+          name: userData.name,
           email: userData.email,
           password: userData.password,
+          role: userData.role,
+          phone: userData.phone,
+          address: userData.address,
+          organization: userData.role !== 'staff' ? userData.organization : '',
+          experience: userData.experience || ''
         }),
       });
-
       const result = await response.json();
 
       if (!result.success) {
-        setIsLoading(false);
         console.error(result.message);
+        setIsLoading(false);
         return false;
       }
 
-      // Map backend response to User object
       const savedUser: User = {
         id: Date.now().toString(),
         name: userData.name,
@@ -192,7 +192,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         role: userData.role,
         phone: userData.phone,
         address: userData.address,
-        organization: userData.organization || 'NGO India',
+        organization: userData.organization || '',
         experience: userData.experience,
         department: userData.role === 'staff' ? 'Program Management' :
                     userData.role === 'leadership' ? 'Executive' : 'Field Operations',
@@ -217,13 +217,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
 
-  // Logout
   const logout = () => {
     setUser(null);
     storeCurrentUser(null);
   };
 
-  // Update user
   const updateUser = (updates: Partial<User>) => {
     if (!user) return;
     const updatedUser = { ...user, ...updates };
@@ -238,8 +236,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const getAllUsers = (): User[] => {
+    return getStoredUsers();
+  };
+
   return (
-    <AuthContext.Provider value={{ user, login, register, logout, updateUser, isLoading }}>
+    <AuthContext.Provider value={{ user, login, register, logout, updateUser, getAllUsers, isLoading }}>
       {children}
     </AuthContext.Provider>
   );

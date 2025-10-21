@@ -128,5 +128,87 @@
     "ngoName": "asdf",
     "email": "asdf@gmail.com",
     "password": "$2b$10$oHLkX3Ms85I/sfW6BdROQeUnZm4j4PBOhc66Ml7MJt7iQrEX62N4K"
+  },
+  "pramod123@gmail.com": {
+    "ngoName": "pramod",
+    "email": "pramod123@gmail.com",
+    "password": "$2b$10$9GpmMn3IfV9eE5cKE0KZE.qkzqIuhmphp2ZMcwhObm6bcIyV3NjHi"
+  },
+  "apuran@gmail.com": {
+    "name": "apuran",
+    "email": "apuran@gmail.com",
+    "password": "$2b$10$ZF/R28l82hVYyKRO24GfmOKAW7LVSGc5GTJ7baBA/ycdmYulo1BiO",
+    "role": "staff",
+    "organization": ""
+  },
+  "bib@gmail.com": {
+    "name": "ascwfvg",
+    "email": "bib@gmail.com",
+    "password": "$2b$10$XbLD1dHtZDryfY5jRLzWUuty8.S.Q6cD/Uh5DnURJgm0Hq7Gu8bfy",
+    "role": "staff",
+    "organization": ""
+  },
+  "pp@gmail.com": {
+    "name": "ppppp",
+    "email": "pp@gmail.com",
+    "password": "$2b$10$mKtxQdwfx8loXYCaOUmoQO5tflXjH3IxzC6fd92lYyOyXsKpUNFYy",
+    "role": "staff",
+    "organization": ""
+  },
+  "ibnib8b@gmail.com": {
+    "name": "ibnb9b",
+    "email": "ibnib8b@gmail.com",
+    "password": "$2b$10$lbZvKD1Okr.Rvunu.bGoZuiTCyviVtktbjn.wMDjqKdfmUpDuw2IG",
+    "role": "leadership",
+    "organization": "sssss"
+  },
+  "pratham@gmail.com": {
+    "name": "pratham",
+    "email": "pratham@gmail.com",
+    "password": "$2b$10$HckhlYIE/YsKC6Q8EODYTuNQMMewp66Pa1au.VqLXUhNHMT.zMDh2",
+    "role": "staff",
+    "organization": ""
+  },
+  "akshatyagi54@gmail.com": {
+    "name": "AKSHATyagi",
+    "email": "akshatyagi54@gmail.com",
+    "password": "$2b$10$WFPyOI0gm2NuYHnvh32dVOBGFpbJuZ/9SYVgvNwVeIS9uQegT7/YG",
+    "role": "staff",
+    "organization": ""
+  },
+  "das@gmail.com": {
+    "name": "pritamdas",
+    "email": "das@gmail.com",
+    "password": "$2b$10$.y9SoRfD1w9w0cZYEW4QxewlJEcgMUDcWDM5GpNCmaDA/arj2I2ku",
+    "role": "staff",
+    "organization": ""
+  },
+  "sdvwsvw@gmail.com": {
+    "name": "asfidavfie",
+    "email": "sdvwsvw@gmail.com",
+    "password": "$2b$10$Zt1HEDhiiDkVGZICh3KbaOrkO8G7abdF56MF5fWoyJdh8PzONw01q",
+    "role": "leadership",
+    "organization": "saitan"
+  },
+  "inini@gmail.com": {
+    "name": "iiunui inini",
+    "email": "inini@gmail.com",
+    "password": "$2b$10$pVvJIkxZbQCEYnILMLPbousbzWwHDZTumCj4fNkaVaQ2egtpKzxUm",
+    "role": "leadership",
+    "organization": "tom"
+  },
+  "shahil@gmail.com": {
+    "name": "shahil",
+    "email": "shahil@gmail.com",
+    "password": "$2b$10$2JMRp/VvaNEMkjQYv9RkmubXhkhup0x9VaUdChXMILULO4ZRiNdF6",
+    "role": "staff",
+    "organization": ""
+  },
+  "scsvv@gmail.com": {
+    "name": "uib 8b",
+    "email": "scsvv@gmail.com",
+    "password": "$2b$10$sIE122TWwllP8FrNGI0RbeiUUufR20fHxWpegClQSL6yzVVesX1py",
+    "role": "staff",
+    "organization": ""
   }
 }
