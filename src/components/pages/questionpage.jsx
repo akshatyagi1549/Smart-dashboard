@@ -11,7 +11,6 @@ export default function QuestionPage() {
   const location = useLocation();
   const { user, updateUser } = useAuth();
 
-  // Get role from location.state or sessionStorage or fallback to user.role
   const [role, setRole] = useState(
     location.state?.role ||
     sessionStorage.getItem("role") ||
@@ -19,18 +18,15 @@ export default function QuestionPage() {
     "staff"
   );
 
-  // Save role to sessionStorage to persist on refresh
   useEffect(() => {
     sessionStorage.setItem("role", role);
   }, [role]);
 
-  // Select the question set based on role
   let questions = directorQuestions;
   if (role === "leadership") questions = executiveQuestions;
   else if (role === "employee") questions = employeeQuestions;
 
   const index = step ? parseInt(step, 10) - 1 : 0;
-
   const [answers, setAnswers] = useState(
     JSON.parse(sessionStorage.getItem("answers") || "{}")
   );
@@ -60,12 +56,13 @@ export default function QuestionPage() {
       navigate(`/questions/${index + 2}`, { state: { role } });
     } else {
       try {
-        if (!user || !user.id) throw new Error("User not found");
+        if (!user || !user.email) throw new Error("User not found");
 
+        const userId = user.email; // Use email as userId
         const response = await fetch("http://localhost:5000/api/save-questions", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ userId: user.id, answers }),
+          body: JSON.stringify({ userId, answers }),
         });
 
         const data = await response.json();
@@ -80,7 +77,7 @@ export default function QuestionPage() {
         const username = storedUser.email
           ? storedUser.email.split("@")[0].split(/[0-9]/)[0]
           : "user";
-        const ngoName = (answers.ngoName || storedUser.ngoName || "ngo")
+        const ngoName = (answers.ngoName || storedUser.organization || "ngo")
           .toLowerCase()
           .replace(/\s+/g, "_");
         const dashboardPath = `/dashboard/${username}_${ngoName}`;

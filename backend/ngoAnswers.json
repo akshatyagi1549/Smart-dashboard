@@ -1835,5 +1835,168 @@
     "projectMonitoringFeatures": [
       "Knowledge Hub"
     ]
+  },
+  "1760683268932": {
+    "ngoName": "janseva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "pratham@gmail.com": {
+    "ngoName": "saitan",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ]
+  },
+  "akshatyagi54@gmail.com": {
+    "ngoName": "kumar",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ]
+  },
+  "das@gmail.com": {
+    "ngoName": "smay",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
+  },
+  "sdvwsvw@gmail.com": {
+    "ngoName": "saitan",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
+  },
+  "inini@gmail.com": {
+    "ngoName": "saitan",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
   }
 }

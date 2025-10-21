@@ -4,11 +4,13 @@ import {
   Shield, Users, Briefcase, ArrowLeft, 
   CheckCircle
 } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 
 export function JoinPage() {
   const navigate = useNavigate();
+  const { register } = useAuth();
+
   const [selectedRole, setSelectedRole] = useState<'staff' | 'leadership' | 'employee'>('staff');
   const [formData, setFormData] = useState({
     name: '',
@@ -22,7 +24,6 @@ export function JoinPage() {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isLoading, setIsLoading] = useState(false);
-  const { register } = useAuth();
 
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
@@ -47,8 +48,8 @@ export function JoinPage() {
       newErrors.phone = 'Please enter a valid phone number';
     }
     if (!formData.address.trim()) newErrors.address = 'Address is required';
-    if (selectedRole === 'leadership' && !formData.organization.trim()) {
-      newErrors.organization = 'Organization is required for leadership role';
+    if ((selectedRole === 'leadership' || selectedRole === 'employee') && !formData.organization.trim()) {
+      newErrors.organization = 'Organization is required';
     }
 
     setErrors(newErrors);
@@ -60,37 +61,64 @@ export function JoinPage() {
     if (!validateForm()) return;
 
     setIsLoading(true);
+    setErrors({});
+
+    const payload = {
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      password: formData.password,
+      role: selectedRole,
+      phone: formData.phone.trim(),
+      address: formData.address.trim(),
+      organization: selectedRole !== 'staff' ? formData.organization.trim() : '',
+      experience: formData.experience.trim() || ''
+    };
+
     try {
-      const success = await register({
-        name: formData.name,
-        email: formData.email,
-        password: formData.password,
-        role: selectedRole,
-        phone: formData.phone,
-        address: formData.address,
-        organization: formData.organization,
-        experience: formData.experience
-      });
+      const success = await register(payload);
 
-      if (success) {
-        // Store user data in localStorage
-        localStorage.setItem('user', JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          role: selectedRole,
-          phone: formData.phone,
-          address: formData.address,
-          organization: formData.organization,
-          experience: formData.experience
-        }));
-
-        // Redirect to question page with role state
-        navigate('/questions/1', { state: { role: selectedRole } });
-      } else {
+      if (!success) {
         setErrors({ submit: 'Registration failed. Please try again.' });
+        setIsLoading(false);
+        return;
       }
-    } catch (error) {
-      setErrors({ submit: 'An error occurred. Please try again.' });
+
+      // Fetch NGO answers from localStorage
+      const ngoAnswersRaw = localStorage.getItem('ngoanswers');
+      const ngoAnswers = ngoAnswersRaw ? JSON.parse(ngoAnswersRaw) : {};
+
+      let directorUsername = '';
+      let ngoName = '';
+
+      if (selectedRole === 'staff') {
+        // Director: dashboard/username_ngoname
+        ngoName = formData.organization.trim();
+        directorUsername = formData.email.split('@')[0];
+        navigate(`/dashboard/${directorUsername}_${ngoName}`);
+      } else {
+        // Executive or Employee: check if NGO exists
+        const ngoEntry = Object.values(ngoAnswers).find(
+          (ngo: any) => ngo.ngoName.toLowerCase() === formData.organization.trim().toLowerCase()
+        );
+
+        if (!ngoEntry) {
+          setErrors({ submit: `NGO "${formData.organization}" does not exist. Please ask the Director to create it first.` });
+          setIsLoading(false);
+          return;
+        }
+
+        ngoName = ngoEntry.ngoName;
+        directorUsername = Object.keys(ngoAnswers).find(
+          (key) => ngoAnswers[key].ngoName.toLowerCase() === ngoName.toLowerCase()
+        )!.split('@')[0];
+
+        const userUsername = formData.email.split('@')[0];
+        navigate(`/dashboard/${directorUsername}_${ngoName}/${userUsername}`);
+      }
+
+    } catch (error: any) {
+      console.error(error);
+      setErrors({ submit: error.message || 'An unexpected error occurred. Please try again.' });
     } finally {
       setIsLoading(false);
     }
@@ -148,6 +176,7 @@ export function JoinPage() {
         </div>
       </header>
 
+      {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header Section */}
         <div className="text-center mb-12">
@@ -171,6 +200,7 @@ export function JoinPage() {
                 return (
                   <button
                     key={role.id}
+                    type="button"
                     onClick={() => setSelectedRole(role.id as any)}
                     className={`p-6 rounded-xl border-2 transition-all text-left ${
                       selectedRole === role.id
@@ -205,8 +235,8 @@ export function JoinPage() {
           <div className="p-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Create Your Account</h2>
             <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Full Name & Email */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Name */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     <User className="w-4 h-4 inline mr-2" />
@@ -216,15 +246,13 @@ export function JoinPage() {
                     type="text"
                     value={formData.name}
                     onChange={(e) => handleInputChange('name', e.target.value)}
-                    className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                    className={`w-full px-4 py-3 rounded-lg border ${
                       errors.name ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                     } focus:ring-2 focus:border-transparent`}
                     placeholder="Enter your full name"
                   />
                   {errors.name && <p className="text-red-600 text-sm mt-1">{errors.name}</p>}
                 </div>
-
-                {/* Email */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     <Mail className="w-4 h-4 inline mr-2" />
@@ -234,7 +262,7 @@ export function JoinPage() {
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleInputChange('email', e.target.value)}
-                    className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                    className={`w-full px-4 py-3 rounded-lg border ${
                       errors.email ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                     } focus:ring-2 focus:border-transparent`}
                     placeholder="Enter your email address"
@@ -243,7 +271,7 @@ export function JoinPage() {
                 </div>
               </div>
 
-              {/* Password Fields */}
+              {/* Password & Confirm Password */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -254,14 +282,13 @@ export function JoinPage() {
                     type="password"
                     value={formData.password}
                     onChange={(e) => handleInputChange('password', e.target.value)}
-                    className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                    className={`w-full px-4 py-3 rounded-lg border ${
                       errors.password ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                     } focus:ring-2 focus:border-transparent`}
                     placeholder="Create a password"
                   />
                   {errors.password && <p className="text-red-600 text-sm mt-1">{errors.password}</p>}
                 </div>
-
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     <Lock className="w-4 h-4 inline mr-2" />
@@ -271,7 +298,7 @@ export function JoinPage() {
                     type="password"
                     value={formData.confirmPassword}
                     onChange={(e) => handleInputChange('confirmPassword', e.target.value)}
-                    className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                    className={`w-full px-4 py-3 rounded-lg border ${
                       errors.confirmPassword ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                     } focus:ring-2 focus:border-transparent`}
                     placeholder="Confirm your password"
@@ -280,7 +307,7 @@ export function JoinPage() {
                 </div>
               </div>
 
-              {/* Contact and Address */}
+              {/* Phone & Organization */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -291,15 +318,14 @@ export function JoinPage() {
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => handleInputChange('phone', e.target.value)}
-                    className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                    className={`w-full px-4 py-3 rounded-lg border ${
                       errors.phone ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                     } focus:ring-2 focus:border-transparent`}
                     placeholder="+91 98765 43210"
                   />
                   {errors.phone && <p className="text-red-600 text-sm mt-1">{errors.phone}</p>}
                 </div>
-
-                {selectedRole === 'leadership' && (
+                {(selectedRole === 'leadership' || selectedRole === 'employee') && (
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       <Briefcase className="w-4 h-4 inline mr-2" />
@@ -309,7 +335,7 @@ export function JoinPage() {
                       type="text"
                       value={formData.organization}
                       onChange={(e) => handleInputChange('organization', e.target.value)}
-                      className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                      className={`w-full px-4 py-3 rounded-lg border ${
                         errors.organization ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                       } focus:ring-2 focus:border-transparent`}
                       placeholder="Your organization name"
@@ -329,7 +355,7 @@ export function JoinPage() {
                   value={formData.address}
                   onChange={(e) => handleInputChange('address', e.target.value)}
                   rows={3}
-                  className={`w-full px-4 py-3 rounded-lg border transition-colors ${
+                  className={`w-full px-4 py-3 rounded-lg border ${
                     errors.address ? 'border-red-300 focus:ring-red-500' : 'border-gray-300 focus:ring-orange-500'
                   } focus:ring-2 focus:border-transparent`}
                   placeholder="Enter your complete address"
@@ -340,45 +366,40 @@ export function JoinPage() {
               {/* Experience */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Experience & Skills (Optional)
+                  <Briefcase className="w-4 h-4 inline mr-2" />
+                  Experience (Optional)
                 </label>
-                <textarea
+                <input
+                  type="text"
                   value={formData.experience}
                   onChange={(e) => handleInputChange('experience', e.target.value)}
-                  rows={4}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
-                  placeholder="Tell us about your experience and skills..."
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                  placeholder="E.g., 3 years in nonprofit management"
                 />
               </div>
 
-              {errors.submit && (
-                <div className="text-red-600 text-sm text-center bg-red-50 p-3 rounded-lg">
-                  {errors.submit}
-                </div>
-              )}
+              {/* Submit Error */}
+              {errors.submit && <p className="text-red-600 text-sm text-center">{errors.submit}</p>}
 
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="w-full bg-orange-500 text-white py-4 rounded-lg font-semibold hover:bg-orange-600 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-lg"
-              >
-                {isLoading ? 'Creating Account...' : 'Join NGO INDIA'}
-              </button>
+              {/* Submit Button */}
+              <div className="text-center">
+                <button
+                  type="submit"
+                  disabled={isLoading}
+                  className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg shadow hover:bg-orange-600 transition-colors disabled:opacity-50"
+                >
+                  {isLoading ? 'Creating Account...' : 'Create Account'}
+                </button>
+              </div>
             </form>
           </div>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p>&copy; {new Date().getFullYear()} NGO INDIA. All rights reserved.</p>
-            <div className="flex gap-4">
-              <a href="#" className="hover:underline">Privacy Policy</a>
-              <a href="#" className="hover:underline">Terms of Service</a>
-            </div>
-          </div>
+      <footer className="bg-white border-t border-gray-100 py-6 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
+          © {new Date().getFullYear()} NGO INDIA. All rights reserved.
         </div>
       </footer>
     </div>

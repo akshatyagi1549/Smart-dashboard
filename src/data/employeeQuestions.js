@@ -1,5 +1,5 @@
 export const questions = [
-  { id: "ngoName", text: "What is the name of your pello?", type: "text" },
+  { id: "ngoName", text: "What is the name of your TellO?", type: "text" },
 
   {
     id: "area",

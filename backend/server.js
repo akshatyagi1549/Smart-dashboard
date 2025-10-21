@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import fs from "fs";
 import path from "path";
-import bcrypt from "bcryptjs"; // for password hashing
+import bcrypt from "bcryptjs";
 
 const app = express();
 const port = 5000;
@@ -56,22 +56,38 @@ app.get("/", (req, res) => {
 // Register new user
 app.post("/api/auth/register", async (req, res) => {
   try {
-    const { ngoName, email, password } = req.body;
-    if (!ngoName || !email || !password) {
+    const { name, email, password, role, organization } = req.body;
+    if (!name || !email || !password || !role) {
       return res.status(400).json({ success: false, message: "Missing fields" });
     }
 
-    // Check if user already exists
+    // Check if email already exists
     if (users[email]) {
       return res.status(400).json({ success: false, message: "Email already registered" });
     }
 
+    // If role is leadership, ensure no other user exists with same org
+    if (role === "leadership") {
+      const existingLeader = Object.values(users).find(
+        (u) => u.role === "leadership" && u.organization === organization
+      );
+      if (existingLeader) {
+        return res.status(400).json({
+          success: false,
+          message: `Leadership role already exists for ${organization}`
+        });
+      }
+      if (!organization) {
+        return res.status(400).json({ success: false, message: "Organization is required for leadership role" });
+      }
+    }
+
     const hashedPassword = await bcrypt.hash(password, 10);
-    users[email] = { ngoName, email, password: hashedPassword };
+    users[email] = { name, email, password: hashedPassword, role, organization: organization || "" };
     saveUsersToFile();
 
-    console.log(`✅ Registered user: ${ngoName} (${email})`);
-    res.json({ success: true, message: "Registration successful", ngoName });
+    console.log(`✅ Registered user: ${name} (${email})`);
+    res.json({ success: true, message: "Registration successful", name });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
@@ -92,12 +108,14 @@ app.post("/api/auth/login", async (req, res) => {
       return res.status(401).json({ success: false, message: "Invalid password" });
     }
 
-    console.log(`✅ ${user.ngoName} logged in`);
+    console.log(`✅ ${user.name} logged in`);
     res.json({
       success: true,
       message: "Login successful",
-      ngoName: user.ngoName,
+      name: user.name,
       email: user.email,
+      role: user.role,
+      organization: user.organization
     });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
@@ -105,7 +123,6 @@ app.post("/api/auth/login", async (req, res) => {
 });
 
 // -------------------- DASHBOARD DATA -------------------- //
-
 app.get("/api/dashboard/:userId", (req, res) => {
   const { userId } = req.params;
   const data = ngoAnswers[userId] || {};
