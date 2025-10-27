@@ -1,0 +1,3889 @@
+{
+  "1759954650968": {
+    "ngoName": "pranav",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "goals": [
+      "Fundraising",
+      "Beneficiaries Impact",
+      "Project Performance"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759955007988": {
+    "ngoName": "pranav",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "goals": [
+      "Fundraising",
+      "Beneficiaries Impact",
+      "Project Performance"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759955204271": {
+    "ngoName": "pradham",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Medium ₹50 L–₹5 Cr"
+    ],
+    "goals": [
+      "Fundraising",
+      "Volunteer Engagement",
+      "Donor Retention"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759985384347": {
+    "ngoName": "Mantri",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "goals": [
+      "Fundraising"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759987343924": {
+    "ngoName": "Pradhan Mantri",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "Project Monitoring"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759987649917": {
+    "ngoName": "Tution",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759988333270": {
+    "ngoName": "patna",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759988826588": {
+    "ngoName": "g",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759989732829": {
+    "ngoName": "akshat",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759991641901": {
+    "ngoName": "maqnata",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "metrics": [
+      "Financial Growth"
+    ],
+    "projectsCount": "10",
+    "trackBudget": [
+      "Yes"
+    ],
+    "showTimelines": [
+      "Yes"
+    ],
+    "compareProjects": [
+      "Yes"
+    ],
+    "beneficiaries": {
+      "main": "Children",
+      "other": ""
+    },
+    "categorizeBeneficiaries": [
+      "Age"
+    ],
+    "growthTrends": [
+      "Yes"
+    ],
+    "fundSources": [
+      "Individual Donors"
+    ],
+    "donationTrends": [
+      "Yes"
+    ],
+    "donorSegmentation": [
+      "Recurring"
+    ],
+    "fundraisingForecasts": [
+      "Yes"
+    ],
+    "trackDonorRetention": [
+      "Yes"
+    ],
+    "topDonors": [
+      "Yes"
+    ],
+    "volunteerManagement": [
+      "Yes"
+    ],
+    "dashboardViewers": [
+      "Only Admin"
+    ],
+    "accessLevels": [
+      "Yes"
+    ],
+    "dashboardPlatform": [
+      "Web only"
+    ],
+    "integrations": {
+      "main": "Google Sheets",
+      "other": ""
+    }
+  },
+  "1759993555884": {
+    "ngoName": "Saint",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1759994262476": {
+    "ngoName": "saint",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1760000046522": {
+    "ngoName": "Saas",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations",
+      "Donation Trends",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Project Health",
+      "Impact Metrics"
+    ]
+  },
+  "1760004574280": {
+    "ngoName": "L",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Financial Tracking",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Active Projects"
+    ]
+  },
+  "1760005346362": {
+    "ngoName": "cantt",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Reports & Analytics",
+      "Project Monitoring",
+      "Financial Tracking",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Project Health",
+      "Active Projects"
+    ]
+  },
+  "1760007466652": {
+    "ngoName": "u",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Financial Tracking",
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health",
+      "Impact Metrics"
+    ]
+  },
+  "1760009858241": {
+    "ngoName": "f",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions",
+      "Expense Categories",
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1760011229628": {
+    "ngoName": "ju",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Project Health",
+      "Impact Metrics"
+    ]
+  },
+  "1760074200357": {
+    "ngoName": "prep",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1760074928295": {
+    "ngoName": "Pred",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760078124431": {
+    "ngoName": "Akshat",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Active Projects",
+      "Project Health",
+      "Impact Metrics"
+    ]
+  },
+  "1760087681491": {
+    "ngoName": "SEVA",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations",
+      "Add Donor",
+      "Donation Trends",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1760093552759": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "International"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760093759365": {
+    "ngoName": "akshaya patra",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "International"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1760097479702": {
+    "ngoName": "Seva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Financial Tracking",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760333353876": {
+    "ngoName": "Pramod",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1760344329161": {
+    "ngoName": "akshat",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Active Projects",
+      "Knowledge Hub"
+    ]
+  },
+  "1760345736582": {
+    "ngoName": "INDIA",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1760345844507": {
+    "ngoName": "INDIA",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760349029283": {
+    "ngoName": "ibibi",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1760354414821": {
+    "ngoName": "ibibi",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1760423258474": {
+    "ngoName": "bj",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics"
+    ]
+  },
+  "1760424620717": {
+    "ngoName": "Aptab",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "scale": [
+      "Local"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760424737285": {
+    "ngoName": "Bumi",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "scale": [
+      "Local"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760433681740": {
+    "ngoName": "aaaaa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Impact Metrics"
+    ]
+  },
+  "1760434073179": {
+    "ngoName": "dhawan",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760435022005": {
+    "ngoName": "wsew",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760438647201": {
+    "ngoName": "Bhumi",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760438882343": {
+    "ngoName": "gulami",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects"
+    ]
+  },
+  "1760506497261": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Top Donors",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions",
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Active Projects"
+    ]
+  },
+  "1760506670980": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Top Donors",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions",
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Active Projects"
+    ]
+  },
+  "1760521057536": {
+    "ngoName": "drfhg",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1760525994170": {
+    "ngoName": "dfbg",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ]
+  },
+  "1760529421983": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760591917257": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760592003884": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1760592549857": {
+    "ngoName": "ssss",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761156838405": {
+    "ngoName": "iit",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761157160566": {
+    "ngoName": "iitroorkee",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761159323989": {
+    "ngoName": "iitluckhnow",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Project Monitoring",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761159673918": {
+    "ngoName": "aussie",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761160892356": {
+    "ngoName": "sveve",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761161433617": {
+    "ngoName": "smith",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761162238434": {
+    "ngoName": "aussiess",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761163122794": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
+  },
+  "1761163413103": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Donor Management",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761163834051": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Add Expense",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Project Health"
+    ]
+  },
+  "1761164030290": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761165697686": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761165867050": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166184776": {
+    "ngoName": "janakngo",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166483163": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166654849": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166718640": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166818534": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761166910549": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L",
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761167049751": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "NGO Collaboration Hub",
+      "Project Monitoring",
+      "Financial Tracking",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Financial Health",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761167277483": {
+    "ngoName": "janakngo",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ]
+  },
+  "1761167396716": {
+    "ngoName": "janakngo",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ]
+  },
+  "1761200985491": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ]
+  },
+  "1761201087635": {
+    "ngoName": "india",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ]
+  },
+  "1761201329134": {
+    "ngoName": "virusu",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "International"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761201704176": {
+    "ngoName": "jaiho",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "International"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761212502543": {
+    "ngoName": "seva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking",
+      "Reports & Analytics",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Active Projects",
+      "Knowledge Hub"
+    ]
+  },
+  "1761221335980": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761225515899": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761226374699": {
+    "ngoName": "srilanka",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761226451042": {
+    "ngoName": "srilanka",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761243876172": {
+    "ngoName": "land",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Financial Tracking",
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761244043949": {
+    "ngoName": "land",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761245710225": {
+    "ngoName": "land",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761245902532": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761246192275": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761247909087": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Reports & Analytics",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761279205171": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761280179578": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761280867886": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761282589921": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761283067315": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ]
+  },
+  "1761283833300": {
+    "ngoName": "who",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ]
+  },
+  "1761284254508": {
+    "ngoName": "who",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761284444989": {
+    "ngoName": "who",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761284691719": {
+    "ngoName": "who",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761284907804": {
+    "ngoName": "who",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761285343720": {
+    "ngoName": "sarva",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local",
+      "International"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761293690580": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local",
+      "International"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Donor Management",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends",
+      "Recent Donations",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761294019737": {
+    "ngoName": "saruyu",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761294647421": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761298429977": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761298956378": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761299491979": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761301703472": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
+  },
+  "1761303218657": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Financial Tracking",
+      "Donor Management",
+      "NGO Collaboration Hub",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Financial Health"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics",
+      "Knowledge Hub"
+    ]
+  },
+  "1761303533220": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761306021335": {
+    "ngoName": "ngo",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Medium ₹50 L–₹5 Cr"
+    ],
+    "modules": [
+      "Project Monitoring",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Active Projects",
+      "Knowledge Hub"
+    ]
+  },
+  "1761306672672": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761306853969": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761306944332": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761307055890": {
+    "ngoName": "lords",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761539117082": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ]
+  },
+  "1761554547248": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations",
+      "Top Donors",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions",
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761556822747": {
+    "ngoName": "aussiea",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761557473933": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "size": [
+      "Large > ₹5 Cr budget",
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Reports & Analytics",
+      "Donor Management"
+    ],
+    "scale": [
+      "Local"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761559489114": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ]
+  },
+  "1761560442224": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Donation Trends"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Impact Metrics"
+    ]
+  },
+  "1761560639163": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Environment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  },
+  "1761560818471": {
+    "ngoName": "aussies",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management"
+    ]
+  },
+  "1761561403132": {
+    "ngoName": "bharat",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Recent Donations",
+      "Add Donor",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Impact Metrics",
+      "Project Health"
+    ]
+  },
+  "1761561746337": {
+    "ngoName": "bharatngo",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics",
+      "NGO Collaboration Hub",
+      "Financial Tracking"
+    ],
+    "donorManagementFeatures": [
+      "Donation Trends",
+      "Recent Donations",
+      "Add Donor",
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Expense Categories",
+      "Financial Health",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Impact Metrics",
+      "Project Health"
+    ]
+  },
+  "1761565580130": {
+    "ngoName": "bharatngo",
+    "area": {
+      "main": "Health",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Medium ₹50 L–₹5 Cr"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Add Expense",
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Active Projects",
+      "Project Health"
+    ]
+  },
+  "1761566027647": {
+    "ngoName": "mountain",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Local"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Donor Management",
+      "Project Monitoring",
+      "Reports & Analytics"
+    ],
+    "donorManagementFeatures": [
+      "Add Donor",
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories",
+      "Add Expense"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub",
+      "Impact Metrics"
+    ]
+  },
+  "1761566301684": {
+    "ngoName": "Mountain",
+    "area": {
+      "main": "Women Empowerment",
+      "other": ""
+    },
+    "scale": [
+      "Regional"
+    ],
+    "size": [
+      "Small < ₹50 L"
+    ],
+    "modules": [
+      "Project Monitoring"
+    ],
+    "donorManagementFeatures": [
+      "Recent Donations"
+    ],
+    "financialTrackingFeatures": [
+      "Recent Transactions"
+    ],
+    "projectMonitoringFeatures": [
+      "Active Projects",
+      "Impact Metrics"
+    ]
+  },
+  "1761566601084": {
+    "ngoName": "sa",
+    "area": {
+      "main": "Education",
+      "other": ""
+    },
+    "scale": [
+      "National"
+    ],
+    "size": [
+      "Large > ₹5 Cr budget"
+    ],
+    "modules": [
+      "NGO Collaboration Hub"
+    ],
+    "donorManagementFeatures": [
+      "Top Donors"
+    ],
+    "financialTrackingFeatures": [
+      "Expense Categories"
+    ],
+    "projectMonitoringFeatures": [
+      "Knowledge Hub"
+    ]
+  }
+}

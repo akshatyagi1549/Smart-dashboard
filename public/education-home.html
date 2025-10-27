@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduHope Foundation - Quality Education for All</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+ 
+        :root {
+            --primary: #f97316;
+            --secondary: #f97316;
+            --accent: #f97316;
+            --light: #fff7ed;
+            --dark: #f97316;
+            --success: #f97316;
+        }
+ 
+        body {
+            line-height: 1.6;
+            color: #374151;
+            background-color: #ffffff;
+        }
+ 
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+ 
+        /* Header Styles */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+ 
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+ 
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo i {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-right: 10px;
+        }
+ 
+        .logo h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+ 
+        .logo span {
+            color: var(--accent);
+        }
+ 
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+ 
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+ 
+        nav ul li a {
+            text-decoration: none;
+            color: #374151;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+ 
+        nav ul li a:hover {
+            color: #f97316;
+        }
+ 
+        .cta-button {
+            background-color: #f97316;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+ 
+        .cta-button:hover {
+            background-color: #ea580c;
+        }
+ 
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
+            padding: 5rem 0;
+        }
+ 
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+ 
+        .hero-text h2 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+ 
+        .hero-text .highlight {
+            color: #f97316;
+        }
+ 
+        .hero-text p {
+            font-size: 1.25rem;
+            color: #6b7280;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+ 
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+ 
+        .hero-image {
+            position: relative;
+        }
+ 
+        .hero-image img {
+            width: 100%;
+            border-radius: 1rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .hero-badge {
+            position: absolute;
+            bottom: -1rem;
+            left: -1rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+ 
+        .hero-badge-icon {
+            background: #dcfce7;
+            padding: 0.75rem;
+            border-radius: 50%;
+        }
+ 
+        .hero-badge-icon i {
+            color: #16a34a;
+            font-size: 1.5rem;
+        }
+ 
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+ 
+        .btn-primary {
+            background-color: #f97316;
+            color: white;
+        }
+ 
+        .btn-primary:hover {
+            background-color: #ea580c;
+        }
+ 
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+ 
+        .btn-secondary:hover {
+            background-color: white;
+            color: #f97316;
+        }
+ 
+        /* Programs Section */
+        .section {
+            padding: 5rem 0;
+        }
+ 
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+ 
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+ 
+        .section-title p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+ 
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+ 
+        .program-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+ 
+        .program-card:hover {
+            transform: translateY(-10px);
+        }
+ 
+        .program-img {
+            height: 200px;
+            overflow: hidden;
+        }
+ 
+        .program-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+ 
+        .program-card:hover .program-img img {
+            transform: scale(1.1);
+        }
+ 
+        .program-content {
+            padding: 1.5rem;
+        }
+ 
+        .program-content h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+ 
+        .program-content p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+ 
+        .program-link {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+        }
+ 
+        .program-link i {
+            margin-left: 5px;
+            transition: transform 0.3s;
+        }
+ 
+        .program-link:hover i {
+            transform: translateX(5px);
+        }
+ 
+        /* Impact Section */
+        .impact {
+            background-color: white;
+            color: #374151;
+        }
+ 
+        .impact-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+ 
+        .stat {
+            padding: 1.5rem;
+        }
+ 
+        .stat i {
+            font-size: 3rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+ 
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+ 
+        .stat-text {
+            font-size: 1.1rem;
+        }
+ 
+        /* Stories Section */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+ 
+        .story-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .story-img {
+            height: 200px;
+            overflow: hidden;
+        }
+ 
+        .story-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+ 
+        .story-content {
+            padding: 1.5rem;
+        }
+ 
+        .story-content h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+ 
+        .story-content p {
+            color: #666;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+ 
+        /* CTA Section */
+        .cta-section {
+            background: white;
+            color: #374151;
+            text-align: center;
+            padding: 5rem 0;
+            border-top: 1px solid #e5e5e5;
+        }
+ 
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+ 
+        .cta-section p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+ 
+        /* Footer */
+        footer {
+            background-color: white;
+            color: #374151;
+            padding: 4rem 0 2rem;
+            border-top: 1px solid #e5e5e5;
+        }
+ 
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+ 
+        .footer-column h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+ 
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary);
+        }
+ 
+        .footer-column p {
+            margin-bottom: 1rem;
+            color: #bbb;
+        }
+ 
+        .footer-links {
+            list-style: none;
+        }
+ 
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+ 
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+ 
+        .footer-links a:hover {
+            color: var(--secondary);
+        }
+ 
+        /* Additional styles for new sections */
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+ 
+        @media (max-width: 768px) {
+            .section-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+ 
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+ 
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+ 
+        .social-links a:hover {
+            background-color: var(--secondary);
+        }
+ 
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #bbb;
+        }
+ 
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                padding: 1rem 0;
+            }
+ 
+            nav ul {
+                margin-top: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+ 
+            nav ul li {
+                margin: 0.5rem;
+            }
+ 
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+ 
+            .hero-text h2 {
+                font-size: 2rem;
+            }
+ 
+            .hero-badge {
+                position: static;
+                margin-top: 1rem;
+            }
+ 
+            .btn {
+                width: 100%;
+                max-width: 250px;
+                margin-bottom: 0.5rem;
+            }
+ 
+            /* Make grid layouts single column on mobile */
+            div[style*="grid-template-columns: 1fr 1fr"] {
+                display: block !important;
+            }
+ 
+            div[style*="grid-template-columns: 1fr 1fr"] > div {
+                margin-bottom: 2rem;
+            }
+ 
+            div[style*="grid-template-columns: 1fr 1fr"] > div:last-child {
+                margin-bottom: 0;
+            }
+ 
+            .hero-content {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+<body>
+  <!-- Header -->
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>Edu<span>Hope</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#testimonials">Stories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="loginBtnHeader" class="cta-button">Login</button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Quality Education for <span class="highlight">Every Child</span></h2>
+                <p>We believe every child deserves access to quality education regardless of their background or circumstances. Join us in our mission to transform lives through learning.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Get Involved</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" alt="Children learning">
+                <button id="loginBtnHero" style="background:#e65c00; color:white; border:none; padding:0.5rem 1rem; border-radius:0.5rem;">Login</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Login Section -->
+<div id="loginSection" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+  background: rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:1000;">
+  <div style="background:#fff; padding:2rem; border-radius:1rem; width:350px; text-align:center;">
+    <h2 style="color:#e65c00; margin-bottom:1rem;">Login to EduHope</h2>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Enter your email" required style="width:100%; padding:0.7rem; margin-bottom:1rem;"/>
+      <input type="password" id="password" placeholder="Enter your password" required style="width:100%; padding:0.7rem; margin-bottom:1rem;"/>
+      <button type="submit" style="width:100%; padding:0.7rem; background:#e65c00; color:white; border:none; border-radius:0.5rem;">Login</button>
+    </form>
+    <span id="closeLogin" style="margin-top:0.5rem; display:block; color:#e65c00; cursor:pointer; text-decoration:underline;">Cancel</span>
+  </div>
+</div>
+
+
+ 
+    <!-- Programs Section -->
+    <section class="section" id="programs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Education Programs</h2>
+                <p>We offer a range of programs designed to address educational gaps and empower children with knowledge and skills for a brighter future.</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80%22 alt="Primary Education Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>Primary Education</h3>
+                        <p>Ensuring foundational literacy and numeracy for children in underserved communities through accessible learning centers.</p>
+                        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80%22 alt="STEM Education Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>STEM Education</h3>
+                        <p>Introducing science, technology, engineering, and mathematics to inspire the next generation of innovators.</p>
+                        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80%22 alt="Girls Education Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>Girls' Education</h3>
+                        <p>Breaking barriers to education for girls through scholarships, mentorship, and community awareness programs.</p>
+                        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Impact Section -->
+    <section class="section impact" id="impact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Impact</h2>
+                <p>Through the generous support of donors and partners, we've been able to make a tangible difference in children's lives.</p>
+            </div>
+            <div class="impact-stats">
+                <div class="stat">
+                    <i class="fas fa-user-graduate"></i>
+                    <div class="stat-number">25,000+</div>
+                    <div class="stat-text">Children Educated</div>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-school"></i>
+                    <div class="stat-number">150+</div>
+                    <div class="stat-text">Learning Centers</div>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <div class="stat-number">800+</div>
+                    <div class="stat-text">Teachers Trained</div>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-globe-americas"></i>
+                    <div class="stat-number">12</div>
+                    <div class="stat-text">Countries Reached</div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- About Section -->
+    <section class="section" id="about" style="background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                <div>
+                    <h2 style="font-size: 2.5rem; color: #f97316; margin-bottom: 1.5rem;">About EduHope Foundation</h2>
+                    <p style="color: #6b7280; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">EduHope Foundation is dedicated to transforming lives through quality education. We believe every child deserves the opportunity to learn, grow, and achieve their dreams regardless of their background or circumstances.</p>
+                    <p style="color: #6b7280; font-size: 1.1rem; line-height: 1.6; margin-bottom: 2rem;">Our mission is to empower communities, foster self-reliance, and create lasting change by combining traditional values with modern educational solutions.</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div style="background: #fff7ed; padding: 1.5rem; border-radius: 0.75rem;">
+                            <h4 style="color: #f97316; margin-bottom: 0.5rem;">Our Vision</h4>
+                            <p style="color: #374151; font-size: 0.9rem;">A world where every child has access to quality education</p>
+                        </div>
+                        <div style="background: #fff7ed; padding: 1.5rem; border-radius: 0.75rem;">
+                            <h4 style="color: #f97316; margin-bottom: 0.5rem;">Our Mission</h4>
+                            <p style="color: #374151; font-size: 0.9rem;">Empowering communities through innovative education programs</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400%22 alt="Students in classroom" style="width: 100%; border-radius: 1rem; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Features Section -->
+    <section class="section" style="background: white; padding: 3rem 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400%22 alt="STEM Education" style="width: 100%; border-radius: 1rem; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);">
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; color: #f97316; margin-bottom: 1.5rem;">Why Choose EduHope</h2>
+                    <div style="display: grid; gap: 1.5rem;">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <div style="background: #fff7ed; padding: 0.75rem; border-radius: 0.5rem; flex-shrink: 0;">
+                                <i class="fas fa-shield-alt" style="color: #f97316; font-size: 1.25rem;"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: #1f2937; margin-bottom: 0.5rem;">Transparent Operations</h4>
+                                <p style="color: #6b7280; font-size: 0.95rem;">Complete transparency in fund utilization with detailed reports and real-time tracking.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <div style="background: #fff7ed; padding: 0.75rem; border-radius: 0.5rem; flex-shrink: 0;">
+                                <i class="fas fa-users" style="color: #f97316; font-size: 1.25rem;"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: #1f2937; margin-bottom: 0.5rem;">Community Impact</h4>
+                                <p style="color: #6b7280; font-size: 0.95rem;">Empowering entire communities through education and sustainable development.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <div style="background: #fff7ed; padding: 0.75rem; border-radius: 0.5rem; flex-shrink: 0;">
+                                <i class="fas fa-chart-line" style="color: #f97316; font-size: 1.25rem;"></i>
+                            </div>
+                            <div>
+                                <h4 style="color: #1f2937; margin-bottom: 0.5rem;">Data-Driven Approach</h4>
+                                <p style="color: #6b7280; font-size: 0.95rem;">Using analytics to measure learning outcomes and optimize program effectiveness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Testimonials Section -->
+    <section style="padding: 5rem 0; background: #f9fafb;" id="testimonials">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 style="font-size: 2.5rem; font-weight: bold; color: #1f2937; margin-bottom: 1rem;">Stories of Educational Impact</h2>
+                <p style="font-size: 1.25rem; color: #6b7280; max-width: 600px; margin: 0 auto;">Hear from students, teachers, and communities whose lives have been transformed through education</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    </div>
+                    <p style="color: #374151; font-style: italic; margin-bottom: 1.5rem; line-height: 1.6;">"Thanks to EduHope's scholarship program, I became the first girl in my village to attend university. Now I'm studying to become a doctor and want to serve my community."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150%22 alt="Priya Sharma" style="width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="font-weight: 600; color: #1f2937;">Priya Sharma</h4>
+                            <p style="color: #6b7280; font-size: 0.875rem;">Medical Student, Scholarship Recipient</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    </div>
+                    <p style="color: #374151; font-style: italic; margin-bottom: 1.5rem; line-height: 1.6;">"The STEM program opened my eyes to the world of technology. I've now developed a mobile app that helps farmers in my region get better crop prices."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150%22 alt="Rahul Kumar" style="width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="font-weight: 600; color: #1f2937;">Rahul Kumar</h4>
+                            <p style="color: #6b7280; font-size: 0.875rem;">Software Developer, STEM Program Graduate</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                    <div style="display: flex; gap: 0.25rem; margin-bottom: 1rem;">
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    </div>
+                    <p style="color: #374151; font-style: italic; margin-bottom: 1.5rem; line-height: 1.6;">"The teacher training program transformed my classroom. I learned innovative teaching methods that have doubled my students' engagement and improved their learning outcomes significantly."</p>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150%22 alt="Sunita Devi" style="width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h4 style="font-weight: 600; color: #1f2937;">Sunita Devi</h4>
+                            <p style="color: #6b7280; font-size: 0.875rem;">Primary School Teacher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- CTA Section -->
+    <section style="padding: 4rem 0; background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem;">Join Our Educational Mission</h2>
+            <p style="font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto;">Your support can transform a child's life through education. Whether you donate, volunteer, or spread awareness, every action creates lasting impact.</p>
+            <div style="display: flex; justify-content: center;">
+                <button onclick="toggleLogin()" style="background: white; color: #f97316; padding: 0.75rem 2rem; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">Login</button>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Footer -->
+    <footer id="contact" style="background: #1f2937; color: white; padding: 4rem 0 2rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                    <h4 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">EduHope Foundation</h4>
+                    <p style="color: #9ca3af; line-height: 1.6; margin-bottom: 1rem;">Dedicated to transforming lives through quality education. We believe every child deserves the opportunity to learn, grow, and achieve their dreams.</p>
+                    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                        <a href="#" style="background: #374151; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" style="background: #374151; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" style="background: #374151; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" style="background: #374151; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #9ca3af; text-decoration: none;">About Us</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #9ca3af; text-decoration: none;">Our Programs</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #9ca3af; text-decoration: none;">Impact Stories</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #9ca3af; text-decoration: none;">Annual Reports</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #9ca3af; text-decoration: none;">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Get Involved</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="/donate" style="color: #9ca3af; text-decoration: none;">Donate</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="/volunteer" style="color: #9ca3af; text-decoration: none;">Volunteer</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="/partner" style="color: #9ca3af; text-decoration: none;">Partner with Us</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="/corporate" style="color: #9ca3af; text-decoration: none;">Corporate CSR</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="/fundraise" style="color: #9ca3af; text-decoration: none;">Start a Fundraiser</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Contact Info</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem; color: #9ca3af;"><i class="fas fa-envelope" style="color: #f97316;"></i> info@eduhope.org</li>
+                        <li style="margin-bottom: 0.5rem; color: #9ca3af;"><i class="fas fa-phone" style="color: #f97316;"></i> +91 80684 47416</li>
+                        <li style="margin-bottom: 0.5rem; color: #9ca3af;"><i class="fas fa-map-marker-alt" style="color: #f97316;"></i> Bengaluru, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #374151; padding-top: 2rem; text-align: center; color: #9ca3af;">
+                <p>&copy; 2025 EduHope Foundation. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+ 
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="login-panel">
+            <button class="close-btn" onclick="toggleLogin()">&times;</button>
+            <h3>Login to Portal</h3>
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" required>
+                </div>
+               
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+               
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+        </div>
+    </div>
+ 
+    <style>
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+       
+        .modal-overlay.show {
+            display: flex;
+        }
+       
+        .login-panel {
+            width: 400px;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            position: relative;
+        }
+       
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #374151;
+        }
+       
+        .login-panel h3 {
+            color: #f97316;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+       
+        .form-group {
+            margin-bottom: 15px;
+        }
+       
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #374151;
+        }
+       
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+        }
+       
+        .form-group input:focus {
+            outline: none;
+            border-color: #f97316;
+        }
+       
+        .login-btn {
+            width: 100%;
+            background: #f97316;
+            color: #ffffff;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+       
+        .login-btn:hover {
+            background: #ea580c;
+        }
+    </style>
+ 
+    <script>
+  // Open/close login modal
+  const loginSection = document.getElementById('loginSection');
+  const loginBtnHeader = document.getElementById('loginBtnHeader');
+  const loginBtnHero = document.getElementById('loginBtnHero');
+  const closeLogin = document.getElementById('closeLogin');
+
+  loginBtnHeader.addEventListener('click', () => loginSection.style.display = 'flex');
+  loginBtnHero.addEventListener('click', () => loginSection.style.display = 'flex');
+  closeLogin.addEventListener('click', () => loginSection.style.display = 'none');
+
+  // Login form submit
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    try {
+      const res = await fetch("http://localhost:5000/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        console.error("Login failed:", text);
+        return alert("❌ Login failed. Check console.");
+      }
+
+      const data = await res.json();
+      if (!data.success) return alert("❌ " + data.message);
+
+      // Save user info
+      localStorage.setItem("user", JSON.stringify({
+        email: data.email,
+        ngoName: data.ngoName,
+        organization: data.organization,
+        role: data.role
+      }));
+
+      const users = JSON.parse(localStorage.getItem("ngo_users") || "[]");
+      if (!users.some(u => u.email === data.email)) {
+        localStorage.setItem("ngo_users", JSON.stringify([...users, {
+          id: Date.now().toString(),
+          name: data.ngoName,
+          email: data.email,
+          role: data.role,
+          organization: data.organization,
+        }]));
+      }
+
+      // Compute dashboard path
+      const username = data.email.split("@")[0].split(/[0-9]/)[0].toLowerCase();
+      let dashboardPath = "";
+      if (data.role === "director") {
+        const org = (data.organization || "ngo").toLowerCase().replace(/\s+/g, "_");
+        dashboardPath = `/dashboard/${username}_${org}`;
+      } else {
+        const director = users.find(u => u.role === "director" && u.organization === data.organization);
+        const directorUsername = director?.email.split("@")[0].toLowerCase() || "director";
+        dashboardPath = `/dashboard/${directorUsername}_${username}`;
+      }
+
+      // Redirect to dashboard
+      window.location.href = dashboardPath;
+
+    } catch (err) {
+      console.error("Connection error:", err);
+      alert("❌ Error connecting to server");
+    }
+  });
+</script>
+</body>
+</html>
